@@ -1,0 +1,151 @@
+/*
+ - Allgemein 
+ - Class
+ - IDs
+ 
+*/
+/* ####################################### Allgemein ####################################### */
+
+*{
+margin: 0;
+padding: 0;
+color: #666666;	
+border:0px none;
+}
+
+body{
+	background: url('../gfx/layout/bg.jpg');
+}
+
+h1{
+	font-size: 1.5em;
+}
+
+h2{
+	font-size:1.3em;
+}
+
+h3{
+	font-size: 1.1em;
+}
+
+p{
+	margin: 0 0 17px 0;
+	font-size: 0.8em;
+}
+
+
+header{
+	background: #fff;
+}
+
+header a{
+	float: left; 
+	width: 8%;
+	margin-left: 15%;
+}
+
+header img{
+	width: 100%;
+}
+
+header h1{
+	float:left;
+	padding-top: 5%; 
+	padding-left: 5%;
+}
+
+
+nav{
+	border: 1px solid #696;
+	-webkit-box-shadow: #666 0px 3px 0px;
+	-moz-box-shadow: #666 0px 3px 0px;
+	box-shadow: #666 0px 3px 0px;
+	background: #34A847;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#66EE33), to(#34A847));
+	background: -webkit-linear-gradient(#66EE33, #34A847);
+	background: -moz-linear-gradient(#66EE33, #34A847);
+	background: -ms-linear-gradient(#66EE33, #34A847);
+	background: -o-linear-gradient(#66EE33, #34A847);
+	background: linear-gradient(#66EE33, #34A847);
+}
+
+nav section{
+	margin: 0 auto;
+	width: 85%;
+}
+
+nav section div{
+	float: left;
+	margin: 0;
+	border-left: 1px solid #666666;
+}
+
+nav section div a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: #666666;
+}
+
+nav section div:hover{
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#34A847), to(#66EE33));
+	background: -webkit-linear-gradient(#34A847, #66EE33);
+	background: -moz-linear-gradient(#34A847, #66EE33);
+	background: -ms-linear-gradient(#34A847, #66EE33);
+	background: -o-linear-gradient(#34A847, #66EE33);
+	background: linear-gradient(#34A847, #66EE33);
+}
+
+footer{
+	padding: 2%;
+	background: #000;
+}
+
+footer p{
+  color:#c0c0c0;
+	float: left;
+}
+
+footer ul li{
+	float:right;
+	list-style:none;
+	font-size: 0.7em;
+	padding-left: 0.6%;
+}
+
+footer ul li a{
+	display:block;
+	text-decoration: none;
+}
+
+/* ####################################### Class ####################################### */
+
+.clear{
+	clear: both;
+}
+
+/* ####################################### IDs ####################################### */
+
+#content{
+	max-width: 1060px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#main{
+	padding: 2%;
+	border: 1px solid #669966;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	background: #ffffff;
+	z-index: 20000;
+}
+
+#wrapper{
+	background: #000;
+}

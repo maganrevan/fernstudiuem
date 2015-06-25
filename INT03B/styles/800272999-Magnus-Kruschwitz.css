@@ -1,0 +1,157 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In diesen Styles sind folgende Elemente definiert:
+
+~~~ BASICS
+~~~ CLASS
+~~~ IDs
+~~~ ZUSAMMENGESETZT
+
+*/
+
+/* ~~~ BASICS  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+body {
+	background: 	url(../bilder/layout/background.png) no-repeat center center;
+}
+
+* {
+	margin:     	0;
+	padding:    	0;
+	color: 			#545454;
+}
+
+p {
+	margin:		0 0 17px 0;
+}
+
+a {
+	color:	#3399ff;
+}
+
+a:visited{
+	color: #339900;
+}
+
+a:hover{
+	color: #339900;
+}
+
+h1 {
+	font-size: 1.8em;
+	color: #09D3F6;
+}
+
+h2{
+	font-size:1.4em;
+	color: #0B9EEF;
+}
+
+h3{
+	font-size:1.2em;
+	text-align: center;
+	margin: 5px;
+	color: #0B9EEF;
+}
+
+/* ~~~ IDs  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#wrapper{
+	width:960px;
+	margin: 10px auto;
+	border: 1px #000 solid;
+	padding: 5px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;
+	box-shadow: #666 0px 2px 3px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFF), to(#D9D9D9));
+	background: -webkit-linear-gradient(#FFF, #D9D9D9);
+	background: -moz-linear-gradient(#FFF, #D9D9D9);
+	background: -ms-linear-gradient(#FFF, #D9D9D9);
+	background: -o-linear-gradient(#FFF, #D9D9D9);
+	background: linear-gradient(#FFF, #D9D9D9);
+}
+
+#header{
+	padding: 5px;
+	margin: 10px 0;
+}
+
+#main{
+	width:748px;
+	float:left;
+	padding: 0 5px;
+	margin: 0 5px;
+}
+
+#teaser{
+	width:182px;
+	float:left;
+	font-size: 0.9em;
+	
+}
+
+#footer{
+	margin: 2% 0;
+}
+
+/* ~~~ CLASS  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.clear{
+	clear: both;
+}
+
+.leistung{
+	margin:2%;
+	padding: 1%;
+	width: 26%;
+	border: 1px #000 solid;
+	background: #3399ff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;
+	box-shadow: #666 0px 2px 3px;
+	text-align: center;
+}
+
+.leistung:hover{
+	background: #cc3300;
+}
+
+/*~~~ ZUSAMMENGESETZT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+ul .leistung{
+	list-style:none;
+	display: inline-block;
+}
+
+.leistung:hover strong{
+	color: #3300ff;
+}
+
+#footer p{
+	float:left;
+	padding: 1%;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+#teaser ul{
+	list-style: none;
+}
+
+#header img{
+	float:left;
+	
+}
+#header h1{
+	float:left;
+	margin-left: 10px;
+}
+
+#header h2{
+	float:left;
+	margin-left: 10px;
+}
